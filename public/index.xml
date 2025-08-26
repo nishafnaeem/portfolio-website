@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 Aug 2025 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Built a Smart Lead Qualification Bot with n8n (and the Two Biggest Problems I Solved) 🤖</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 14 Aug 2025 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;In today’s fast-paced world, one of the biggest challenges for businesses and individuals is connecting different apps and automating repetitive tasks. This is where tools like &lt;strong&gt;n8n&lt;/strong&gt; (an open-source workflow automation platform) come in. Think of it as a bridge for your data—it lets you link various services, APIs, and databases together to create powerful, automated workflows without needing to write complex code. The demand for these platforms is growing rapidly because they empower people to build solutions that save time, reduce manual errors, and free up energy for more creative work. ✨&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
