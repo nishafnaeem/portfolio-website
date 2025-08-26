@@ -8,6 +8,7 @@ In today’s fast-paced world, one of the biggest challenges for businesses and 
 
 I started using n8n for this very reason. I was fascinated by the idea of creating smart automations and wanted to explore how I could apply it to real-world problems. That’s why I embarked on a personal learning project to automate lead qualification. As I’ve seen more and more companies use AI for lead validation, I wanted to understand the process and build my own solution. The idea was to create a workflow that could take a list of company website domains and automatically vet each one. While n8n is an amazing tool out of the box, this learning exercise required me to get my hands dirty with some custom work. This document is all about the two biggest challenges I faced and how I solved them. 🛠️
 
+
 ---
 ## The Docker Challenge: Building a Custom n8n Image 🐳
 The first major hurdle was getting the right tools to work inside the n8n environment. My workflow needed to handle JavaScript-heavy websites, so I needed **Playwright**, a powerful web automation library. My initial thought was to simply install it on a standard n8n Docker image. Easy, right?
