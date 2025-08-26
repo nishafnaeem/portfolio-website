@@ -1,12 +1,10 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
+title = "About Me"
+description = "About Me Section"
+date = "2025-08-27"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Nishaf Naeem"
 +++
-
-# Hi there, I'm Nishaf Naeem 👋
 
 I'm a seasoned **Software Engineer** with over 7 years of industrial experience, specializing in **AI Automation**, **Backend Development**, **DevOps**, and **Data Solutions**. As a Top-Rated professional on Upwork, I have a proven track record of designing, building, and deploying scalable, cloud-based production applications and automated CI/CD pipelines.
 
