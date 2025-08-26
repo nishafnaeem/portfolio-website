@@ -55,11 +55,6 @@ style = "github-dark"
   icon = "fa-brands fa-linkedin fa-2x"
   weight = 2
   url = "https://linkedin.com/nishafnaeem/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa-brands fa-x-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/nishafnaeem/"
 
 # Menu links
 [[menu.main]]
