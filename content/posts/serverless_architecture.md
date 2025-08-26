@@ -28,8 +28,6 @@ I chose a combination of **AWS Step Functions, Lambda, and ECS Fargate** to buil
 
 To better illustrate this, let's break down two of the primary workflows we created.
 
----
-
 #### Step Functions-Lambda Workflow
 
 ![Target](/portfolio-website/images/stepfunctions-lambda-workflow.png)
@@ -57,7 +55,8 @@ For the more resource-intensive, browser-based scraping, we used a similar appro
 2.  **Map Workflow State:** This time, a **Map Workflow State** was used to launch an ECS Fargate task for each chunk.
 3.  **Data Handling:** Once a Fargate container finished, it wrote its data directly to a raw table in the Aurora DB. Since tasks running on Fargate can't return a payload to Step Functions, we wrote the execution stats to an Amazon S3 bucket.
 4.  **Closing Lambda Function:** The final Lambda function collected all the execution stats from the S3 bucket, compiled them, stored them in the database, and then cleaned up the S3 bucket by removing the temporary files.
----
+
+
 ### Key Learnings and Constraints
 
 While the architecture was highly successful, there were a few key limitations we had to work around:
