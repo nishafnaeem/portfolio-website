@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Portfolio</description>
+    <title>Nishaf Naeem&#39;s Portfolio</title>
+    <link>http://localhost:1313/portfolio-website/</link>
+    <description>Recent content on Nishaf Naeem&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 14 Aug 2025 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Built a Smart Lead Qualification Bot with n8n (and the Two Biggest Problems I Solved) 🤖</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/portfolio-website/posts/my-first-post/</link>
       <pubDate>Thu, 14 Aug 2025 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/portfolio-website/posts/my-first-post/</guid>
       <description>&lt;p&gt;In today’s fast-paced world, one of the biggest challenges for businesses and individuals is connecting different apps and automating repetitive tasks. This is where tools like &lt;strong&gt;n8n&lt;/strong&gt; (an open-source workflow automation platform) come in. Think of it as a bridge for your data—it lets you link various services, APIs, and databases together to create powerful, automated workflows without needing to write complex code. The demand for these platforms is growing rapidly because they empower people to build solutions that save time, reduce manual errors, and free up energy for more creative work. ✨&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/portfolio-website/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio-website/about/</guid>
+      <description>&lt;h1 id=&#34;hi-there-im-nishaf-naeem-&#34;&gt;&#xA;  Hi there, I&amp;rsquo;m Nishaf Naeem 👋&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#hi-there-im-nishaf-naeem-&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a seasoned &lt;strong&gt;Software Engineer&lt;/strong&gt; with over 7 years of industrial experience, specializing in &lt;strong&gt;AI Automation&lt;/strong&gt;, &lt;strong&gt;Backend Development&lt;/strong&gt;, &lt;strong&gt;DevOps&lt;/strong&gt;, and &lt;strong&gt;Data Solutions&lt;/strong&gt;. As a Top-Rated professional on Upwork, I have a proven track record of designing, building, and deploying scalable, cloud-based production applications and automated CI/CD pipelines.&lt;/p&gt;&#xA;&lt;p&gt;My expertise lies in developing comprehensive solutions that streamline operations, from extracting valuable insights through data scraping to provisioning robust, multi-cloud infrastructure. I am passionate about creating clean, maintainable, and well-documented code that powers impactful and efficient systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
