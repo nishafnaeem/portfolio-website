@@ -5,6 +5,8 @@ draft = false
 disableComments = true
 +++
 
+GitHub Link: https://github.com/nishafnaeem/n8n-website-analyzer
+
 In today’s fast-paced world, one of the biggest challenges for businesses and individuals is connecting different apps and automating repetitive tasks. This is where tools like **n8n** (an open-source workflow automation platform) come in. Think of it as a bridge for your data—it lets you link various services, APIs, and databases together to create powerful, automated workflows without needing to write complex code. The demand for these platforms is growing rapidly because they empower people to build solutions that save time, reduce manual errors, and free up energy for more creative work.
 
 I started using n8n for this very reason. I was fascinated by the idea of creating smart automations and wanted to explore how I could apply it to real-world problems. That’s why I embarked on a personal learning project to automate lead qualification. As I’ve seen more and more companies use AI for lead validation, I wanted to understand the process and build my own solution. The idea was to create a workflow that could take a list of company website domains and automatically vet each one. While n8n is an amazing tool out of the box, this learning exercise required me to get my hands dirty with some custom work. This document is all about the two biggest challenges I faced and how I solved them. 🛠️
@@ -55,11 +57,11 @@ This was the breakthrough that made the Playwright fallback possible. By simply 
 Here’s a high-level overview of how the completed workflow operates:
 
 * **Start**: The workflow kicks off, pulling a list of company URLs from a Google Sheet.
-* **Primary HTTP Request**: The workflow first tries to fetch the website content using a standard HTTP request. This is the fastest method and works for most simple websites. ⚡
-* **Fallback to Playwright**: If the HTTP request fails (often due to dynamic content or aggressive blocking), the workflow automatically switches to the Playwright scraper. It uses the custom Python script I created to render the page and scrape the content as a user would see it. 🔄
-* **AI Analysis**: The scraped HTML content is sent to an AI model (like Gemini) with a detailed prompt. This is where the magic happens. The AI analyzes the content and extracts key data points like contact information, business type, and whether the site sells products. 🧠
+* **Primary HTTP Request**: The workflow first tries to fetch the website content using a standard HTTP request. This is the fastest method and works for most simple websites. 
+* **Fallback to Playwright**: If the HTTP request fails (often due to dynamic content or aggressive blocking), the workflow automatically switches to the Playwright scraper. It uses the custom Python script I created to render the page and scrape the content as a user would see it. 
+* **AI Analysis**: The scraped HTML content is sent to an AI model (like Gemini) with a detailed prompt. This is where the magic happens. The AI analyzes the content and extracts key data points like contact information, business type, and whether the site sells products.
 * **Lead Qualification**: The AI’s analysis is then used to determine the final lead status (e.g., “Lift Prime,” “Unqualified — Junk Lead”). This part of the workflow uses a series of checks to make a smart, automated decision.
-* **Update Sheets**: Finally, all the extracted data and the final lead status are written back to the Google Sheet, giving us a clean, validated list of leads. 📈
+* **Update Sheets**: Finally, all the extracted data and the final lead status are written back to the Google Sheet, giving us a clean, validated list of leads. 
 
 By overcoming those initial Docker and Python challenges, I was able to build a robust and highly effective automation as a personal learning exercise.
 
