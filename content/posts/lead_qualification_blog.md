@@ -2,6 +2,7 @@
 title = 'How I Built a Smart Lead Qualification Bot with n8n (and the Two Biggest Problems I Solved) 🤖'
 date = 2025-08-14T07:07:07+01:00
 draft = false
+disableComments = true
 +++
 
 In today’s fast-paced world, one of the biggest challenges for businesses and individuals is connecting different apps and automating repetitive tasks. This is where tools like **n8n** (an open-source workflow automation platform) come in. Think of it as a bridge for your data—it lets you link various services, APIs, and databases together to create powerful, automated workflows without needing to write complex code. The demand for these platforms is growing rapidly because they empower people to build solutions that save time, reduce manual errors, and free up energy for more creative work. ✨
@@ -49,6 +50,8 @@ This was the breakthrough that made the Playwright fallback possible. By simply 
 
 ---
 ## The Final Workflow: How It All Fits Together ⚙️
+
+![Target](/images/n8n-website-analyzer.png)
 Here’s a high-level overview of how the completed workflow operates:
 
 * **Start**: The workflow kicks off, pulling a list of company URLs from a Google Sheet. 🚀

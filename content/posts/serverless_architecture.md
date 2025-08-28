@@ -2,6 +2,7 @@
 title = 'From VM Bottlenecks to Serverless Scalability: A Case Study in Web Scraping Architecture'
 date = 2022-03-02T07:07:07+01:00
 draft = false
+disableComments = true
 +++
 
 In the world of data extraction, efficiency and reliability are everything. When you're running a suite of scrapers—each with its own demands—you quickly realize that traditional infrastructure can become a major bottleneck. I recently faced this challenge firsthand with a project that involved running around 30 different scrapers for e-commerce sites like Amazon, Walmart, and eBay.
@@ -30,7 +31,7 @@ To better illustrate this, let's break down two of the primary workflows we crea
 
 #### Step Functions-Lambda Workflow
 
-![Target](/portfolio-website/images/stepfunctions-lambda-workflow.png)
+![Target](/images/stepfunctions-lambda-workflow.png)
 
 
 For one of our key projects, we needed to scrape offers for a large list of Amazon ASINs (Amazon Standard Identification Numbers). Here's how the workflow was designed:
@@ -46,7 +47,7 @@ This model was repeated for many other sites that relied on straightforward HTTP
 
 #### Step Functions-ECS Fargate Workflow
 
-![Target](/portfolio-website/images/stepfunctions-ecs-workflow.png)
+![Target](/images/stepfunctions-ecs-workflow.png)
 
 
 For the more resource-intensive, browser-based scraping, we used a similar approach but replaced Lambda with ECS Fargate tasks.
