@@ -22,7 +22,10 @@ Here are the key technologies and domains I specialize in:
 
 * **IaaS/IaC:** `Terraform`, `OpenTofu`, `CloudFormation`, `Ansible`
 
-* **Services:** `EC2`, `S3`, `Lambda`, `GCP Cloud Functions`, `Docker`, `Kubernetes`, `GKE`, `EKS`
+* **Services:**
+    * **AWS**: `AWS EC2`, `S3`, `Lambda`, `ECS Fargate`, `EKS`, `SNS`, `SQS`, `SES`, `Kinesis`, `Glue`, `AWS SSM`
+    * **GCP**: `GCP Cloud Functions`, `Cloud Run`, `Storage`, `VM`, `Pub/Sub`, `Memorystore`, `Cloud Tasks`, `App Engine`
+    * **Other**: `Docker`, `Kubernetes`
 
 ### **Backend Development & Data Engineering**
 
@@ -40,7 +43,10 @@ Here are the key technologies and domains I specialize in:
 
 * **Models:** `Claude`, `OpenAI`, `Gemini`
 
-* **Workflow Automation:** Expert in automating complex business logic and daily workflows with platforms like `n8n`.
+* **Low-Code Automation Platforms:** Expert in automating complex business logic and daily workflows with platforms like `n8n`.
+
+* **Low-Code Platforms:** `Retool`
+
 
 ### **CI/CD & Monitoring**
 
