@@ -20,7 +20,7 @@ style = "github-dark"
   info = "DevOps & Automation Engineer"
   description = "Nishaf Naeem's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/profile_pic.png"
+  #avatarurl = "images/profile_pic.png"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
