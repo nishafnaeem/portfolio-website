@@ -1,5 +1,5 @@
 baseurl = "https://nishaf.info"
-title = "Nishaf Naeem's Portfolio"
+title = "Nishaf Ch's Portfolio"
 theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -16,9 +16,9 @@ shortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "Nishaf Naeem"
+  author = "Nishaf Ch"
   info = "DevOps & Automation Engineer"
-  description = "Nishaf Naeem's personal website"
+  description = "Nishaf Ch's personal website"
   keywords = "blog,developer,personal"
   #avatarurl = "images/profile_pic.png"
   #gravatar = "john.doe@example.com"
